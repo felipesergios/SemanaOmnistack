@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const server = express();//Criando o Servidor Com Express
 const cors = require('cors');
-mongoose.connect('mongodb+srv://felipe:88574753@cluster0-xuizx.mongodb.net/aula?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://felipe:password@cluster0-xuizx.mongodb.net/aula?retryWrites=true&w=majority',{
     useNewUrlParser:true
 });
 server.use(cors());
